@@ -11,7 +11,7 @@ Vue.use(VueFlashMessage, {
 })
 
 const vm = new Vue()
-const baseURL = 'http://localhost:3000/vocabs/'
+const baseURL = 'https://vocab-backend-demo.onrender.com/vocabs/'
 
 const handleError = fn => (...params) =>
    fn(...params).catch(error => {
